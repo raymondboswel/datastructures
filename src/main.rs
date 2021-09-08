@@ -4,7 +4,10 @@ mod ch1 {
 }
 
 use ch1::ex1::reverse_lines;
+use ch1::ex1::reverse_n_lines;
 
 fn main() {
-    reverse_lines("./poem.txt");
+    // reverse_lines("./poem.txt");
+
+    reverse_n_lines("./poem.txt", 3);
 }
